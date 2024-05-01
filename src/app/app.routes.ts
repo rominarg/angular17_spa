@@ -5,6 +5,7 @@ import { IniciarSesionComponent } from './pages/auth/iniciar-sesion/iniciar-sesi
 import { RegistroComponent } from './pages/auth/registro/registro.component';
 import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
+import { Pagina404Component } from './pages/pages/pagina404/pagina404.component';
 
 export const routes: Routes = [
     {path: "home", component:HomeComponent},
@@ -13,4 +14,5 @@ export const routes: Routes = [
     {path:"registro", component:RegistroComponent},
     {path:"quienes-somos", component:QuienesSomosComponent},
     {path:"servicios", component:ServiciosComponent},
+    {path: '**', component: Pagina404Component}
 ];
