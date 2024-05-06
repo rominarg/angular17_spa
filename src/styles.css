@@ -16,3 +16,6 @@ header.fondo {
     margin-bottom: 25px;
   }
 
+  .active-link {
+    color: red; 
+  }
