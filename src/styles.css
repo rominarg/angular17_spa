@@ -16,6 +16,6 @@ header.fondo {
     margin-bottom: 25px;
   }
 
-  .active-link {
-    color: red; 
-  }
+  .custom-color {
+    color: #212529;
+}
