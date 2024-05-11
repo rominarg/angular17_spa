@@ -12,6 +12,7 @@ import { TransaccionesComponent } from './pages/dashboard/transacciones/transacc
 import { CriptomonedaComponent } from './pages/dashboard/criptomoneda/criptomoneda.component';
 
 export const routes: Routes = [
+    {path: '', component: HomeComponent},
     {path: "home", component:HomeComponent},
     {
         path: "panel-control", component: DashboardComponent,
