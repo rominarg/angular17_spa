@@ -5,7 +5,7 @@ import { IniciarSesionComponent } from './pages/auth/iniciar-sesion/iniciar-sesi
 import { RegistroComponent } from './pages/auth/registro/registro.component';
 import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
-import { Pagina404Component } from './pages/pages/pagina404/pagina404.component';
+// import { Pagina404Component } from './pages/pages/pagina404/pagina404.component';
 import { ProfesionalComponent } from './pages/quienes-somos/profesional/profesional/profesional.component';
 import { OperacionesComponent } from './pages/dashboard/operaciones/operaciones.component';
 import { TransaccionesComponent } from './pages/dashboard/transacciones/transacciones.component';
@@ -27,5 +27,5 @@ export const routes: Routes = [
     {path:"quienes-somos", component:QuienesSomosComponent},
     {path:"quienes-somos/:id", component:ProfesionalComponent},
     {path:"servicios", component:ServiciosComponent},
-    {path: '**', component: Pagina404Component}
+    // {path: '**', component: Pagina404Component}
 ];
